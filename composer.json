@@ -1,0 +1,22 @@
+{
+    "name": "easyph/composer-test",
+    "description": "composer test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "easyph",
+            "email": "easyph@yeah.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5"
+    }
+  "autoload": {
+    "psr-4": {
+      "Flower\\Rose\\": "src/Flower/Rose",
+      "Flower\\Lily\\": "src/Flower/Lily"
+    }
+  }
+}
